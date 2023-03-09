@@ -39,6 +39,7 @@ for i in range(n):
 Some study projects using JavaScript:
 + [Aim the target](https://github.com/forgetme4ever/aimthetarget)
 + [Colored cursor](https://github.com/forgetme4ever/coloredCursor)
++ [Slider](https://github.com/forgetme4ever/sliderUpnDown)
 
 ## Education
 + Brooklyn College, NY - M.S. in Business Economics, 2016
