@@ -1,7 +1,7 @@
 # Eugen Burkenia
 
 ## Contacts
-- **location:** the Bronx, NY
+- **location:** Bronx, NY
 - **phone:** +1 (646) 262-0765
 - **email:** burikievgen@gmail.com
 - **git:** [forgetme4ever](https://github.com/forgetme4ever)
@@ -55,4 +55,3 @@ Some study projects using JavaScript:
 #### Languages:
 - Ukrainian - Native
 - Russian - Native
-
