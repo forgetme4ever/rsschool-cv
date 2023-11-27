@@ -1,10 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
     <title>CV</title>
-</head>
-<body></body>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <img src="picture.jpg" alt="img: photo" width = '170'>
+        <h1 class="name">Eugen Eugenco</h1>
+        <nav class="contacts">
+          <ul>
+            <li>
+              <a href="mailto:nikipinki86@gmail.com">nikipinki86@gmail.com</a>
+            </li>
+            <li><a href="tel:+11111111111">212-220-2020</a></li>
+            <li>Brooklyn, NY</li>
+          </ul>
+        </nav>
+      </header>
+      <main class="main">
+        <section class="objective">
+          <h2>Objective</h2>
+          <p>
+            Seeking a junior web developer position in IT company where I can
+            utilize and upgrade my coding skills
+          </p>
+        </section>
+        <section class="education">
+          <h2>Education</h2>
+          <p>
+            Brooklyn College
+            <span
+              >Business economics, minor Global Business and Finance, M.S.
+              2016</span
+            >
+          </p>
+        </section>
+        <section class="skills">
+          <h2>Skills</h2>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Git</li>
+            <li>Figma</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+          </ul>
+        </section>
+        <section class="code">
+          <h2>Code Example</h2>
+          <blockquote>
+            <pre>
+                <code>
+n, m = [int(i) for i in input().split()]
+matrix = []
+k = [int(i) for i in range(1, m + 1)]
+cy = 0
+for i in range(n):
+    matrix.append(k[cy:] + k[:cy])
+    cy += 1
+    if cy > len(k):
+        cy = 1
+for i in range(n):
+    for j in range(m):
+        print(matrix[i][j], end = ' ')    
+    print()
+                </code>
+            </pre>
+          </blockquote>
+        </section>
+        <section class="experience">
+          <h2>Experience</h2>
+          <span>Some study projects using JavaScript:</span>
+          <ul>
+            <li>
+              <a href="https://github.com/forgetme4ever/aimthetarget"
+                >Aim the target</a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/forgetme4ever/coloredCursor"
+                >Colored cursor</a
+              >
+            </li>
+          </ul>
+        </section>
+        <section class="courses">
+          <h2>Courses</h2>
+          <ul>
+            <li>Python for beginners</li>
+            <li>Introduction to manual testing</li>
+            <li>JavaScript for beginners</li>
+            <li>Python programming</li>
+            <li>Introduction to Java</li>
+          </ul>
+        </section>
+        <section class="languages">
+          <h2>Languages</h2>
+          <ul>
+            <li>Ukrainian - Native</li>
+            <li>Russian - Native</li>
+          </ul>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="git">
+          <a href="https://github.com/forgetme4ever">Github</a>
+          <div class="date">11/27/2023</div>
+          <div class="logo">
+            <a
+              href="https://app.rs.school/course/student/dashboard?course=js-fe-en-2023q4"
+              ><img src="logo.svg" alt="img: logo" width="83"
+            /></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
